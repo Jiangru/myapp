@@ -11,6 +11,7 @@ var info = require('./routes/info');
 // var all = require('./routes/all');
 
 var app = express();
+app.locals.sex = 'man'
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

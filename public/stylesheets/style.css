@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+.title {
+  color: aquamarine;
+  font-size: 20px;
+}
